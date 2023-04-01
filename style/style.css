@@ -1,0 +1,127 @@
+nav ul{
+  display:inline-block;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+}
+nav li{
+  height: 45px;
+  text-align: center;
+  display:inline-block;
+  width:25%;
+  margin:auto;
+  padding: 0;
+}
+
+#formation{
+  margin-top:30px;
+}
+
+nav a{
+  padding-top: 8px;
+  color:white;
+  text-decoration: none;
+  display:block;
+  height: inherit;
+}
+
+nav li:hover{
+  background-color: #05479c;
+}
+
+nav a:hover{
+  color: white;
+}
+
+header{
+  margin-top:200px;
+  text-align: center;
+}
+
+header ul{
+  list-style: none;
+}
+.titre{
+  font-weight: bold;
+  font-size: 2em;
+}
+
+i{
+  padding: 0;
+}
+
+#rayonStyle button{
+  border: none;
+  padding: 0;
+}
+
+#rayonStyle label {
+  margin-right: 20px;
+}
+
+#minus{
+  margin-right: 5px;
+}
+#plus{
+  margin-left: 4px;
+}
+.Rayonlabel, #km{
+  margin-bottom:0px;
+  margin-top: 5px;
+}
+
+#km{
+  margin-left:8px;
+}
+
+#valider{
+  background-color: #030e1b;
+  color:white;
+}
+
+#valider:hover {
+  background-color:#05479c ;
+}
+
+nav{
+  background-color: #030e1b;
+}
+
+#plus, #minus{
+  color: #030e1b;
+}
+
+#plus:hover{
+  color: #198754;
+}
+
+#minus:hover{
+  color: #DC3545;
+}
+
+#cardHeader{
+  font-size: 1em;
+  color: white;
+  background-color: #18283b;
+}
+
+.cardBodyFooter{
+  font-size: 1em;
+  background-color: #030e1b;
+}
+
+#description article ul{
+  font-size: 0.9em;
+  color:#030e1b;
+  background-color: #c7c7c7;
+}
+
+#description article a, #offres a {
+  color:#1f76e7;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+#cardHeader>i{
+  margin-right: 12px;
+}
